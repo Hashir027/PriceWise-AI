@@ -1,0 +1,159 @@
+/* Import Modern Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+html, body, [class*="st-"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Hero Section Styles - Wealth & Tech Vibe */
+.hero {
+    background: linear-gradient(135deg, #0f172a 0%, #064e3b 100%);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: 20px;
+    padding: 45px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 12px 35px rgba(4, 120, 87, 0.15);
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border: 1px solid rgba(52, 211, 153, 0.3);
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+.hero-title span {
+    color: #34d399;
+}
+
+.hero-subtitle {
+    font-size: 16px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+/* Section Headings */
+.section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f8fafc;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 18px;
+}
+
+/* Custom Cards */
+.custom-card {
+    background: rgba(30, 41, 59, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 22px;
+    border-radius: 14px;
+    margin-bottom: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.card-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #f8fafc;
+    margin-bottom: 6px;
+}
+
+.card-description {
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+/* Price Highlight Card - Savings Theme (Emerald/Green) */
+.price-card {
+    background: linear-gradient(135deg, #065f46 0%, #022c22 100%);
+    border: 1px solid #059669;
+    border-radius: 18px;
+    padding: 35px;
+    text-align: center;
+    margin: 30px 0;
+    box-shadow: 0 10px 30px rgba(5, 150, 105, 0.25);
+}
+
+.price-label {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #6ee7b7;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.price-value {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+
+.price-description {
+    font-size: 14px;
+    color: #a7f3d0;
+}
+
+/* Result Content Box */
+.result-content {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(16, 185, 129, 0.15);
+    padding: 28px;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+/* Info and Success Boxes */
+.info-box {
+    background: rgba(30, 41, 59, 0.6);
+    border-left: 4px solid #3b82f6;
+    padding: 16px 20px;
+    border-radius: 0 10px 10px 0;
+    color: #cbd5e1;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.success-box {
+    background: rgba(6, 78, 59, 0.4);
+    border-left: 4px solid #10b981;
+    padding: 22px;
+    border-radius: 0 10px 10px 0;
+    color: #d1fae5;
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 35px 0;
+    margin-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.5;
+}
